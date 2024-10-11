@@ -2,11 +2,11 @@
 using namespace std;
 int addition(int a, int b)
 {
-
+    return a+b;
 }
 int division(int a, int b)
 {
-
+    return a/b;
 }
 int multiplication(int a,int b)
 {
@@ -22,4 +22,6 @@ int main()
     cin>>a>>b;
      cout<<multiplication(a,b) <<endl;
     cout<<subtraction(a,b) <<endl;
+    cout<<addition(a,b)<<endl;
+    cout<<division(a,b)<<endl; 
 }
