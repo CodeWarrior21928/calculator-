@@ -20,5 +20,6 @@ int main()
 {
     int a,b;
     cin>>a>>b;
-    
+     cout<<multiplication(a,b) <<endl;
+    cout<<subtraction(a,b) <<endl;
 }
